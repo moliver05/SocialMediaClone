@@ -26,7 +26,7 @@ function TopNavSearch() {
     return (
         <div>
             <input style={inputStyles}
-                type="text" placeholder="  Search"></input>
+                type="text" placeholder="Search"></input>
             <input style={inputStyles2} type="button" value="Tweet"></input>
         </div>
     );

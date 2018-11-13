@@ -3,9 +3,13 @@ import React from "react";
 import TopNav from "./TopNav";
 import Profile from "./Profile";
 import NewsFeed from "./NewsFeed";
+import Recommended from "./Recommended";
 
 function App(){
   var styles = {
+    width: "1100px",
+    marginRight: "auto",
+    marginLeft: "auto",
   }
   var layout = {
     display: "flex",
@@ -18,6 +22,7 @@ function App(){
       <div style={layout}>
         <Profile />
         <NewsFeed />
+        <Recommended />
       </div>
 
       social-media-clone

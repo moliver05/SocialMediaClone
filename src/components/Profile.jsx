@@ -3,6 +3,7 @@ var humanIcon = require("../img/humanIcon.png");
 
 function Profile(){
   var topStyles = {
+    position: "relative",
     border: "2px solid lightgray",
     width: "300px",
     marginTop: "15px",
@@ -19,9 +20,12 @@ function Profile(){
     backgroundImage: "url("+humanIcon+")",
     backgroundSize: "contain",
     border: "2px solid white",
-    position: "absolute",
-    top: "200px",
-    left: "20px",
+    position: "fixed",
+    top: "auto",
+    left: "auto",
+    marginTop: "-50px",
+    marginLeft: "14px",
+    borderRadius: "20px",
   }
 
   var bottomStyles = {
@@ -29,6 +33,7 @@ function Profile(){
     width: "300px",
     height: "100px",
     zIndex: "1",
+    position: "relative",
   }
   var nameStyles = {
       textAlign: "right",

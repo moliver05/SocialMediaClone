@@ -10,9 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bbootstrap": "^1.0.0",
+    "css-loader": "^1.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "reactstrap": "^6.5.0",
+    "style-loader": "^0.23.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

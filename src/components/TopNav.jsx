@@ -4,7 +4,7 @@ import TopNavSearch from  "./TopNavSearch";
 
 function TopNav(){
   var styles = {
-      width: "100%",
+      width: "1100px",
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
