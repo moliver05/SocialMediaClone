@@ -45,6 +45,14 @@ function Profile(){
       justifyContent: "space-around",
       fontSize: '13px',
   }
+  var profileTextStyles = {
+      width: "260px",
+      height: "300px",
+      padding: "20px",
+      border: "2px solid lightgray",
+      marginTop: "20px",
+      lineHeight: "23px",
+  }
   return (
     <div>
        <div style={topStyles}></div>
@@ -52,6 +60,9 @@ function Profile(){
        <div style={bottomStyles}>
             <div style={nameStyles}>Kellie A. Corrigan</div>
             <div style={linkStyles}><span>TWEETS</span> <span>FOLLOWING</span> <span>FOLLOWERS</span></div>
+        </div>
+        <div style={profileTextStyles}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
         </div>
     </div>
     
